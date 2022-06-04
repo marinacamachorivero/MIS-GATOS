@@ -1,0 +1,67 @@
+html {
+  scroll-behavior: smooth;
+  font-family: "Comic Sans MS";
+}
+
+a {
+  color: rgb(0, 135, 253);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(14, 0, 210);
+}
+
+header div {
+  background-image: url(../img/encabezado.jpg);
+  height: auto;
+  background-position: 50% 70%;
+  color: rgb(255, 255, 255);
+  font-size: 200%;
+  text-shadow: 6px 6px 4px rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  background-color: rgb(255, 249, 164);
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+}
+
+h2 {
+  color: rgb(0, 176, 185);
+}
+
+section {
+  background-color: rgb(240, 240, 240);
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+}
+
+.foto{
+  width: 40%;
+  height: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav ol {
+  list-style-type: lower-roman;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(255, 249, 164);
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.next {
+  margin-left: 90%;
+}
